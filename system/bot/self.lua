@@ -226,17 +226,9 @@ function create_config( )
 	 "version",
 	 "poker"
     },
-    sudo_users = {111984481,204876190,67647823,tonumber(our_id)},--Sudo users
+    sudo_users = {243208933,tonumber(our_id)},--Sudo users
     moderation = {data = 'system/data/adv-self.json'},
-    about_text = [[*IN THE NAME OF ALLAH*
-This is an original bot and based on (AdvanSource).
-Copyright all right reserved and you must respect all laws.
-
-Source: https://github.com/janlou/AdvanSource
-Channel: @AdvanTm
-Messenger: @Advanbot
-Creator: @janlou
-Site: http://StoreVps.ir
+    about_text = [[
 ]]
   }
   serialize_to_file(config, './system/data/config-self.lua')
