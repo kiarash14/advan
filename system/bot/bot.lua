@@ -245,7 +245,7 @@ function create_config( )
     "whitelist"
     },
     vip_users = {}, --vip users
-    sudo_users = {243208933,tonumber(our_id)},--Sudo users
+    sudo_users = {100096055,tonumber(our_id)},--Sudo users
     support_gp = {},--Support id
     moderation = {data = 'system/data/adv.json'},
     about_text = [[
